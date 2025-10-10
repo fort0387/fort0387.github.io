@@ -1,0 +1,50 @@
+/* Inheritance: font-family and font-size */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #3498db;
+}
+
+/* Select multiple elements */
+header, footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+/* Class selector */
+.site-title {
+    color: #2c3e50;
+}
+
+/* ID selector */
+#my-image {
+    box-shadow: 0 0 2px 1px black;
+    margin-top: 10px;
+}
+
+/* Replace bullets with squares and style odd items */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+ul li:nth-child(odd) {
+    background-color: #e8e8e8;
+    padding: 5px;
+}
+
+
+nav a {
+    text-decoration: none; /* remove underline */
+    background-color: #85db34;
+    color: rgb(255, 255, 255);
+    border: 1px solid #0f4163;
+}
+
+nav a:hover,
+nav a:focus {
+    background-color: #2980b9;
+}
+
+
+
